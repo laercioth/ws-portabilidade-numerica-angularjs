@@ -1,7 +1,7 @@
 # ws-portabilidade-numerica-angularjs
 =====================================
 
-<div><img alt="print" src="img/printscreen.png" /></div>
+<div><img alt="print" src="img/print.png" /></div>
 
 Objetivo
 --------
