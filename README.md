@@ -1,5 +1,5 @@
 # ws-portabilidade-numerica-angularjs
-  ===================================
+=====================================
 
 <div><img alt="print" src="img/printscreen.png" /></div>
 
