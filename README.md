@@ -18,7 +18,8 @@ Para corrigir foi necessário add a extesão (https://goo.gl/A0zjdX) e ativar CO
 Mais informações sobre o erro (http://goo.gl/spO2oI).
 			 
 Tecnologias utilizadas
-----------------------			 
+----------------------
+			 
   HTML, CSS, BOOTSTRAP, ANGULARJS, JQUERY
 			 
 Como executar?
