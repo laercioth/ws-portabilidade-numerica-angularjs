@@ -22,15 +22,10 @@ Tecnologias utilizadas
 ----------------------
 			 
   HTML
-  ----	
   CSS
-  ---
   BOOTSTRAP
-  ---------
   ANGULARJS 
-  ---------
   JQUERY
-  ------
 			 
 Como executar?
 --------------
