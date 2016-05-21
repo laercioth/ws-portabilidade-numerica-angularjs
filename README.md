@@ -1,6 +1,7 @@
 # ws-portabilidade-numerica-angularjs
 =====================================
 
+<div><img alt="print" src="img/print.png" /></div>
 
 Objetivo
 --------
@@ -20,16 +21,21 @@ Mais informações sobre o erro (http://goo.gl/spO2oI).
 Tecnologias utilizadas
 ----------------------
 			 
-  --JAVA
-  --XML
-  --JSON
-  --MAVEN 
-  --JERSEY - API WS
-
+  HTML
+  ----	
+  CSS
+  ---
+  BOOTSTRAP
+  ---------
+  ANGULARJS 
+  ---------
+  JQUERY
+  ------
 			 
 Como executar?
 --------------
 
-Não tem segredo. Só baixar, abrir o index.html e usar! ###Let's be happy :D
+Não tem segredo. Só baixar, abrir o index.html e usar! 
+Let's be happy :D
 		 
 
