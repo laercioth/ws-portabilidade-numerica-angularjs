@@ -1,0 +1,73 @@
+<!doctype html>
+<html ng-app="nroPortabilidadeApp">
+	<head>
+		<title>WS-Portabilidade Operadora-AngularJS e Bootstrap</title>
+		<!-- METADATA-->
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		
+  		<!-- CSS-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- SCRIPT-->
+		<script type="text/javascript" src="js/jquery.min.js"></script> 
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/angular-input-masks-standalone.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<!--AngularJS Module and Controller -->
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/nroPortabilidadeController.js"></script>
+	</head>
+	<body ng-controller="NroPortabilidadeCtrl">
+		<div class="container">
+			<h2 >WebService-Portabilidade Operadora-AngularJS e Bootstrap</h2><br/><br/>
+			
+			<form class="form-horizontal col-sm-12" role="form">
+				<!--Número-->
+				<div class="form-group">
+					<label class="control-label col-sm-4"  for="numero">Número Telefone Celular:</label>
+					<div class="col-sm-2">          
+						<input type="text" class="form-control" ng-disabled="loading" ng-model="numero" id="numero" ui-br-phone-number>
+			      	</div>
+			      	<!--BUTTON-->
+			      	<div class="col-sm-2">          
+						<button type="submit" class="btn btn-primary" ng-disabled="loading" ng-click="search(numero)">Search</button>
+				  		<button type="submit" class="btn btn-danger" ng-click="clear()">Clear</button>
+			      	</div>
+			    </div>
+			    <br><br>
+			    <div class="col-sm-9">
+			    	<label class="control-label col-sm-5 format-operadora" for="operadora"
+			    	ng-show="claro || ctbc || nextel || oi || vivo || tim">Operadora: </label>
+			    	<div class="img center format-logo" ng-show="claro">
+						<img src="img/claro.jpg">
+					</div>
+					<div class="img center format-logo" ng-show="ctbc">
+						<img src="img/ctbc.png">
+					</div>
+					<div class="img center format-logo" ng-show="nextel">
+						<img src="img/nextel.png">
+					</div>
+					<div class="img center format-logo" ng-show="oi">
+						<img src="img/oi.jpg">
+					</div>
+					<div class="img center format-logo" ng-show="vivo">
+						<img src="img/vivo.png">
+					</div>
+					<div class="img center format-logo" ng-show="tim">
+						<img src="img/tim.jpg">
+					</div>
+
+					<!-- GIF -->
+					<img class="format-loading" ng-show="loading" src="img/loading_spinner.gif">
+
+					<!--MSGS-->
+		      		<h4 class="format-logo" ng-show="foneNaoEncontrado">Número não encontrado ou não existe!</h4>
+		      		<h4 class="format-logo" ng-show="foneInvalido">Favor preencher o campo corretamente!</h4>
+			    </div>
+			</form>
+		</div>
+	</body>
+</html>
