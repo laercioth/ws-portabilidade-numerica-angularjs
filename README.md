@@ -18,7 +18,7 @@ Para corrigir foi necessário add a extensão (https://goo.gl/A0zjdX) e ativar C
 Mais informações sobre o erro (http://goo.gl/spO2oI).
 			 
 Tecnologias utilizadas
-----------------------				 
+-----------------------				 
   HTML, CSS, BOOTSTRAP, ANGULARJS, JQUERY
 			 
 Como executar?
