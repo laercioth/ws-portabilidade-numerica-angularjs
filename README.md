@@ -18,7 +18,7 @@ Mais informações sobre o erro (http://goo.gl/spO2oI).
 			 
 ###Tecnologias utilizadas
 
-  HTML, CSS, BOOTSTRAP, ANGULARJS, JQUERY
+  HTML, CSS, JSON, BOOTSTRAP, ANGULARJS, JQUERY
 			 
 ###Como executar?
 
