@@ -22,7 +22,7 @@ Mais informações sobre o erro (http://goo.gl/spO2oI).
 			 
 ###Como executar?
 
-Não tem segredo. Só baixar, abrir o index.html e usar! 
+Não tem segredo. Só baixar, abrir o index.html e usar!<br>
 Let's be happy :D
 		 
 
